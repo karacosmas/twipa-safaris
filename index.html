@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Twipa Safaris</title>
+		<meta charset="utf-8">
+		<meta name="format-detection" content="telephone=no" />
+		<link rel="icon" href="images/favicon.ico">
+		<link rel="shortcut icon" href="images/favicon.ico" />
+		<link rel="stylesheet" href="booking/css/booking.css">
+		<link rel="stylesheet" href="css/camera.css">
+		<link rel="stylesheet" href="css/owl.carousel.css">
+		<link rel="stylesheet" href="css/style.css">
+		<script src="js/jquery.js"></script>
+		<script src="js/jquery-migrate-1.2.1.js"></script>
+		<script src="js/script.js"></script>
+		<script src="js/superfish.js"></script>
+		<script src="js/jquery.ui.totop.js"></script>
+		<script src="js/jquery.equalheights.js"></script>
+		<script src="js/jquery.mobilemenu.js"></script>
+		<script src="js/jquery.easing.1.3.js"></script>
+		<script src="js/owl.carousel.js"></script>
+		<script src="js/camera.js"></script>
+		<!--[if (gt IE 9)|!(IE)]><!-->
+		<script src="js/jquery.mobile.customized.min.js"></script>
+		<!--<![endif]-->
+		<script src="booking/js/booking.js"></script>
+		<script>
+			$(document).ready(function(){
+			jQuery('#camera_wrap').camera({
+				loader: false,
+				pagination: false ,
+				minHeight: '444',
+				thumbnails: false,
+				height: '48.375%',
+				caption: true,
+				navigation: true,
+				fx: 'mosaic'
+			});
+			/*carousel*/
+			var owl=$("#owl");
+				owl.owlCarousel({
+				items : 2, //10 items above 1000px browser width
+				itemsDesktop : [995,2], //5 items between 1000px and 901px
+				itemsDesktopSmall : [767, 2], // betweem 900px and 601px
+				itemsTablet: [700, 2], //2 items between 600 and 0
+				itemsMobile : [479, 1], // itemsMobile disabled - inherit from itemsTablet option
+				navigation : true,
+				pagination : false
+				});
+			$().UItoTop({ easingType: 'easeOutQuart' });
+			});
+		</script>
+		<!--[if lt IE 8]>
+		<div style=' clear: both; text-align:center; position: relative;'>
+			<a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+				<img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+			</a>
+		</div>
+		<![endif]-->
+		<!--[if lt IE 9]>
+		<script src="js/html5shiv.js"></script>
+		<link rel="stylesheet" media="screen" href="css/ie.css">
+		<![endif]-->
+	</head>
+	<body class="page1" id="top">
+<!--==============================header=================================-->
+		<header>
+			<div class="container_12">
+				<div class="grid_12">
+					<div class="menu_block">
+						<nav class="horizontal-nav full-width horizontalNav-notprocessed">
+							<ul class="sf-menu">
+								<li class="current"><a href="index.html">HOME</a></li>
+								<li><a href="index-1.html">DESTINATIONS</a></li>
+								<li><a href="index-2.html">BLOG</a></li>
+								<li><a href="index-3.html">SPECIAL OFFERS</a></li>
+								<li><a href="index-4.html">CONTACTS US</a></li>
+								
+							</ul>
+						</nav>
+						<div class="clear"></div>
+					</div>
+				</div>
+				<div class="grid_12">
+					<h1>
+						<a href="index.html">
+							<img src="images/LOGO2.PNG" alt="Your Happy Family" height="150px">
+						</a>
+					</h1>
+				</div>
+			</div>
+		</header>
+		<div class="slider_wrapper">
+			<div id="camera_wrap" class="">
+				<div data-src="images/29.jpg">
+					<div class="caption fadeIn">
+						<h2>UGANDA</h2>
+						<div class="price">
+							AS LOW AS 
+							<span>$1000</span>
+						</div>
+						<a href="#">LEARN MORE</a>
+					</div>
+				</div>
+				<div data-src="images/slide4.jpg">
+					<div class="caption fadeIn">
+						<h2>RWANDA</h2>
+						<div class="price">
+							AS LOW AS 
+							<span>$1000</span>
+						</div>
+						<a href="#">LEARN MORE</a>
+					</div>
+				</div>
+				<div data-src="images/image3.jpeg">
+					<div class="caption fadeIn">
+						<h2>KENYA</h2>
+						<div class="price">
+							AS LOW AS
+							<span>$2000</span>
+						</div>
+						<a href="#">LEARN MORE</a>
+					</div>
+					
+				</div>
+				<div data-src="images/slide2.jpg">
+					<div class="caption fadeIn">
+						<h2>TANZANIA</h2>
+						<div class="price">
+							AAS LOW AS
+							<span>$1600</span>
+						</div>
+						<a href="#">LEARN MORE</a>
+					</div>
+				</div>
+			</div>
+		</div>
+<!--==============================Content=================================-->
+		<div class="content"><div class="ic">More Website Templates @ TemplateMonster.com - February 10, 2014!</div>
+			<div class="container_12">
+				<div class="grid_4">
+					<div class="banner">
+						<img src="images/ban_img2.jpg" alt="">
+						<div class="label">
+							<div class="title">Queen Elizabeth</div>
+							<div class="price">FROM<span>$ 1000</span></div>
+							<a href="#">LEARN MORE</a>
+						</div>
+					</div>
+				</div>
+				<div class="grid_4">
+					<div class="banner">
+						<img src="images/Murchison_Falls,_Uganda_(23475021234).jpg" alt="">
+						<div class="label">
+							<div class="title">Murchison Falls</div>
+							<div class="price">FROM<span>$ 1.500</span></div>
+							<a href="#">LEARN MORE</a>
+						</div>
+					</div>
+				</div>
+				<div class="grid_4">
+					<div class="banner">
+						<img src="images/falls.jpg" alt="">
+						<div class="label">
+							<div class="title"></div>
+							<div class="price">FROM<span>$ 1.600</span></div>
+							<a href="#">LEARN MORE</a>
+						</div>
+					</div>
+				</div>
+				<div class="clear"></div>
+				<div class="grid_6">
+					<h3>Booking Form</h3>
+					<form id="bookingForm">
+						<div class="fl1">
+							<div class="tmInput">
+								<input name="First Name" placeHolder="First Name:" type="text" data-constraints='@NotEmpty @Required @AlphaSpecial'>
+							</div>
+							<div class="tmInput">
+								<input name="Last Name" placeHolder="last Name:" type="text" data-constraints='@NotEmpty @Required @AlphaSpecial'>
+							</div>
+							<div class="tmInput">
+								<input name="Country" placeHolder="Country of residence:" type="text" data-constraints="@NotEmpty @Required">
+							</div>
+						</div>
+						<div class="fl1">
+							<div class="tmInput">
+								<input name="Email" placeHolder="Email:" type="text" data-constraints="@NotEmpty @Required @Email">
+							</div>
+							<div class="tmInput mr0">
+								<input name="Phone Number" placeHolder="Tel:+123" type="tel" data-constraints="@NotEmpty @Required">
+							</div>
+						</div>
+						<div class="clear"></div>
+						<strong>Arrival</strong>
+						<label class="tmDatepicker">
+							<input type="text" name="Arrival" placeHolder='10/05/2014' data-constraints="@NotEmpty @Required @Date">
+						</label>
+						<div class="clear"></div>
+						<strong>Departure</strong>
+						<label class="tmDatepicker">
+							<input type="text" name="Depature" placeHolder='20/05/2014' data-constraints="@NotEmpty @Required @Date">
+						</label>
+						<div class="clear"></div></br>
+						<div class="tmRadio">
+							<p>Comfort</p>
+							<input name="Comfort" type="radio" id="tmRadio0" data-constraints='@RadioGroupChecked(name="Comfort", groups=[RadioGroup])' checked/>
+							<span>Budget</span>
+							<input name="Comfort" type="radio" id="tmRadio1" data-constraints='@RadioGroupChecked(name="Comfort", groups=[RadioGroup])' />
+							<span>Mid Range</span>
+							<input name="Comfort" type="radio" id="tmRadio2" data-constraints='@RadioGroupChecked(name="Comfort", groups=[RadioGroup])' />
+							<span>Luxury</span>
+						</div>
+						<div class="clear"></div>
+						<div class="fl1 fl2">
+							<em>Where do you wish to go?</em>
+							<select name="Adults" class="tmSelect auto" data-class="tmSelect tmSelect2" data-constraints="">
+								<option>Uganda</option>
+								<option>Kenya</option>
+								<option>Rwanda</option>
+								<option>Tanzania</option>
+							</select>
+							<div class="clear"></div>
+							<em>Activities</em>
+							<select name="Rooms" class="tmSelect auto" data-class="tmSelect tmSelect2" data-constraints="">
+								<option>1</option>
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+							</select>
+						</div>
+						<div class="fl1 fl2">
+							<em>What is your ideal budget</em>
+							<select name="Children" class="tmSelect auto" data-class="tmSelect tmSelect2" data-constraints="">
+								<option>0</option>
+								<option>0</option>
+								<option>1</option>
+								<option>2</option>
+							</select>
+						</div>
+						<div class="clear"></div>
+						<div class="tmTextarea">
+							<textarea name="Message" placeHolder="Describe your dream trip" data-constraints='@NotEmpty @Required @Length(min=20,max=999999)'></textarea>
+						</div>
+						<a href="#" class="btn" data-type="submit">Submit</a>
+					</form>
+				</div>
+				<div class="grid_5 prefix_1">
+					<h3>Welcome to Twipa Safaris</h3>
+					<img src="images/COSMAS 90x90.png" alt="" class="img_inner fleft">
+					<div class="extra_wrapper">
+						<p>Explore,discover and experience the hidden gems of the Pearl of Africa; We offer the
+							continent’s most diverse wildlife encounters, dramatic landscapes, and immersiv
+							cultural experiences.
+							it’s here you explore Africa’s langest mountain range, the snow capped Rwenzori
+							famously known as “Mountains of the moon” and the largest fresh water lake Victoria,
+							the source of River Nile and Uganda is a home to more than half of the world’s
+							population of mountain gorillas
+							Checkout our best promotional offers!
+							</p>
+					</div>
+					<div class="clear cl1"></div>
+					<p>We will tune into your wishes, your timeline, your budget and your interests to
+						plan with you a a lifetime african safari.
+						We do the work for you, allowing you to maximize your travel pleasure and minimize
+						travel anxiety </p>
+				  <h4>Clients’ Quotes</h4>
+					<blockquote class="bq1">
+						<img src="images/page1_img2.jpg" alt="" class="img_inner noresize fleft">
+						<div class="extra_wrapper">
+							<p>The three Day Epic Holiday Safari- Murchison Falls National Park was the most amazing trip I have ever taken.
+								I have been touring Uganda's beautiful places for 6 months now and allow me appreciate 
+								my experience when it came to the three Day holiday at Murchison falls N.P with the Twipa Safaris.
+								I had a Wonderful experience. You can really appreciate a lot of fauna in the wild.
+								I totally recommend Twipa Safaris. </p>
+							<div class="alright">
+								<div class="col1">Karasira Cosmas</div>
+								<a href="https://www.safaribookings.com/oprvw80669" target="_blank" class="btn">More Reviews</a>
+							</div>
+						</div>
+					</blockquote>
+				</div>
+				<div class="grid_12">
+					<h3 class="head1">Destinations</h3>
+				</div>
+				
+				<div class="grid_4">
+					<div class="block1">
+						<time datetime="2014-01-01">10<span>Days</span></time>
+						<div class="extra_wrapper">
+							<div class="text1 col1"><a href="#">Uganda</a></div>
+							Uganda is ranked as a top tourist destination and one of the three countries with over
+50% of the world’s known population of the endangered mountain gorillas. Gorilla
+trekking is the most popular tourist activity in Uganda and also game viewing in the
+most savanna parks because the country has a variety of game, including the rare tree-
+climbing lions of ishasha, white rhinos and many others. Uganda is also a home to 11%
+of the world’s bird species (1078 bird species).</div>
+					</div>
+				</div><br>
+
+				<div class="grid_4">
+					<div class="block1">
+						<time datetime="2014-01-01">3<span>Days</span></time>
+						<div class="extra_wrapper">
+							<div class="text1 col1"><a href="#">Rwanda</a></div>
+							Rwanda is well known as the land of a thousand hills, Rwanda’s stunning scenery and
+							warm friendly people offer unique experiences in one of the most remarkable countries
+							in the world. It is blessed with extraordinary biodiversity with incredible wildlife living
+							throughout its volcanoes, montane rainforest and sweeping plains. <a href="#" style="color:blue;">...Read More</a>
+						</div>
+					</div>
+				</div></br>
+
+				<div class="grid_4">
+					<div class="block1">
+						<time datetime="2014-01-01">5<span>Days</span></time>
+						<div class="extra_wrapper">
+							<div class="text1 col1"><a href="#">Tanzania</a></div>
+							Tanzania offers beautiful scenery, sandy beaches, rich culture and wildlife experiences
+that are magical.
+							<a href="#" style="color:blue;">...Read More</a>
+						</div>
+					</div>
+				</div></br>
+
+				<div class="grid_4">
+					<div class="block1">
+						<time datetime="2014-01-01">9<span>Days</span></time>
+						<div class="extra_wrapper">
+							<div class="text1 col1"><a href="#">Kenya</a></div>
+							Welcome to the land of which the great Sir Winston Churchill called 
+							“The Pearl of Africa” This is where beauty meets diversity 
+							and ofcourse the welcoming local people you wont find anywhere else. <a href="#" style="color:blue;">...Read More</a>
+						</div>
+					</div>
+				</div></br>
+
+				<div class="grid_4">
+					<div class="block1">
+						<time datetime="2014-01-01">5<span>Days</span></time>
+						<div class="extra_wrapper">
+							<div class="text1 col1"><a href="#">DRC</a></div>
+							Congo is one of the largest and most enigmatic countries in Africa. The beautiful
+scenery and the parks are spectacular.<a href="#" style="color:blue;">...Read More</a>
+						</div>
+					</div>
+				</div></br>
+
+				<p> <div class="grid_4">
+					<div class="block1">
+						<time datetime="2014-01-01">1<span>Day</span></time>
+						<div class="extra_wrapper">
+							<div class="text1 col1"><a href="#">South Sudan</a></div>
+							South Sudan is emerging slowly as a major tourist destination on the African continent
+with rich cultural heritage. The country is a home to different ethnic groups each with
+unique customs and traditions. <a href="#" style="color:blue;">...Read More</a>
+						</div>
+					</div>
+				</div></br></p>
+
+				
+			</div>
+		</div>
+
+<!--==============================footer=================================-->
+		<footer>
+			<div class="container_12">
+				<div class="grid_12">
+					<div class="socials">
+						<a href="#" class="fa fa-facebook"></a>
+						<a href="#" class="fa fa-twitter"></a>
+						<a href="#" class="fa fa-envelope-o fa-fw"></a>
+					</div>
+					<div class="copy">
+						<p>TWIPA SAFARIS (c) 2022 |
+							<a href="#">Privacy Policy</a></p>
+						 <p>
+							Our Services:</br>
+							Gorilla Safaris, Wildlife Safaris, Bird watching
+							& Cultural Safaris, Car Hire Services, Honeymoon packages,
+							Tour consultations.
+						</p>
+							<p>Our destinations:
+							</br>Uganda, Kenya, Tanzania | Rwanda | Burundi | DR Congo | South Sudan.</p></br>
+							
+							<p>P.O.Box .109421 Kampala - Uganda
+								Tel: +256 +256 779630311/0755590041</p>
+							  
+							Email: <a href="info@twipasafaris.co">info@twipasafaris.co</a>
+							
+						 
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script>
+			$(function (){
+				$('#bookingForm').bookingForm({
+					ownerEmail: '#'
+				});
+			})
+			$(function() {
+				$('#bookingForm input, #bookingForm textarea').placeholder();
+			});
+		</script>
+	</body>
+</html>
+
