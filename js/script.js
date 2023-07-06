@@ -49,4 +49,22 @@ var currentYear = (new Date).getFullYear();
 
   $(function(){
   $('.sf-menu').superfish({autoArrows: true})
-})
+});
+function openPopup() {
+  var popup = document.getElementById('popup');
+ popup.style.display = 'block';
+ }
+
+function closePopup() {
+ var popup = document.getElementById('popup');
+ popup.style.display = 'none';
+ };
+ function openPopup() {
+  var popup = document.getElementById('popup');
+  popup.style.display = 'block';
+}
+
+function closePopup() {
+  var popup = document.getElementById('popup');
+  popup.style.display = 'none';
+}
