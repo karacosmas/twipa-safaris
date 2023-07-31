@@ -94,10 +94,10 @@
 			<div id="camera_wrap" class="">
 				<div data-src="images/29.jpg">
 					<div class="caption fadeIn">
-						<h2>UGANDA</h2>
+						<h2>Tanzania</h2>
 						<div class="price">
-							AS LOW AS 
-							<span>$1000</span>
+							<!--AS LOW AS 
+							<span>$1000</span>-->
 						</div>
 						<a href="#">LEARN MORE</a>
 					</div>
@@ -106,8 +106,8 @@
 					<div class="caption fadeIn">
 						<h2>RWANDA</h2>
 						<div class="price">
-							AS LOW AS 
-							<span>$1000</span>
+							<!--AS LOW AS 
+							<span>$1000</span> -->
 						</div>
 						<a href="#">LEARN MORE</a>
 					</div>
@@ -116,8 +116,8 @@
 					<div class="caption fadeIn">
 						<h2>KENYA</h2>
 						<div class="price">
-							AS LOW AS
-							<span>$2000</span>
+							<!--AS LOW AS
+							<span>$2000</span>-->
 						</div>
 						<a href="#">LEARN MORE</a>
 					</div>
@@ -125,10 +125,10 @@
 				</div>
 				<div data-src="images/slide2.jpg">
 					<div class="caption fadeIn">
-						<h2>TANZANIA</h2>
+						<h2>Uganda</h2>
 						<div class="price">
-							AAS LOW AS
-							<span>$1600</span>
+							<!--AS LOW AS
+							<span>$1600</span>-->
 						</div>
 						<a href="#">LEARN MORE</a>
 					</div>
@@ -143,7 +143,7 @@
 						<img src="images/ban_img2.jpg" alt="">
 						<div class="label">
 							<div class="title">Queen Elizabeth</div>
-							<div class="price">FROM<span>$ 1000</span></div>
+							<div class="price">FROM<span>$ 600</span></div>
 							<a href="#">LEARN MORE</a>
 						</div>
 					</div>
@@ -153,7 +153,7 @@
 						<img src="images/Murchison_Falls,_Uganda_(23475021234).jpg" alt="">
 						<div class="label">
 							<div class="title">Murchison Falls</div>
-							<div class="price">FROM<span>$ 1.500</span></div>
+							<div class="price">FROM<span>$ 460</span></div>
 							<a href="#">LEARN MORE</a>
 						</div>
 					</div>
@@ -162,8 +162,8 @@
 					<div class="banner">
 						<img src="images/falls.jpg" alt="">
 						<div class="label">
-							<div class="title"></div>
-							<div class="price">FROM<span>$ 1.600</span></div>
+							<div class="title">Sipi Falls</div>
+							<div class="price">FROM<span>$ 800</span></div>
 							<a href="#">LEARN MORE</a>
 						</div>
 					</div>
@@ -219,30 +219,33 @@
 								<option>Kenya</option>
 								<option>Rwanda</option>
 								<option>Tanzania</option>
+								<option>S.Sudan</option>
+								<option>DRC</option>
 							</select>
 							<div class="clear"></div>
 							<em>Activities</em>
 							<select name="Rooms" class="tmSelect auto" data-class="tmSelect tmSelect2" data-constraints="">
-								<option>1</option>
+								<option></option>
 								<option>1</option>
 								<option>2</option>
 								<option>3</option>
 							</select>
+						
 						</div>
 						<div class="fl1 fl2">
 							<em>What is your ideal budget</em>
-							<select name="Children" class="tmSelect auto" data-class="tmSelect tmSelect2" data-constraints="">
-								<option>0</option>
-								<option>0</option>
-								<option>1</option>
-								<option>2</option>
+							<select name="Children" class="tmSelect auto" placeholder="USD" data-class="tmSelect tmSelect2" data-constraints="">
+								<option>1200</option>
+								<option>2000</option>
+								<option>2500</option>
+								<option>3500</option>
 							</select>
 						</div>
 						<div class="clear"></div>
 						<div class="tmTextarea">
-							<textarea name="Message" placeHolder="Describe your dream trip" data-constraints='@NotEmpty @Required @Length(min=20,max=999999)'></textarea>
+							<textarea name="Message" placeHolder="Describe your dream trip"  data-constraints='@NotEmpty @Required @Length(min=20,max=999999)'></textarea>
 						</div>
-						<a href="#" class="btn" data-type="submit">Submit</a>
+						<a href="info@twipasafaris.com" class="btn" data-type="submit">Submit</a>
 					</form>
 				</div>
 				<div class="grid_5 prefix_1">
@@ -367,9 +370,10 @@ unique customs and traditions. <a href="#" style="color:blue;">...Read More</a>
 			<div class="container_12">
 				<div class="grid_12">
 					<div class="socials">
-						<a href="#" class="fa fa-facebook"></a>
-						<a href="#" class="fa fa-twitter"></a>
+						<a href="" class="fa fa-facebook"></a>
+						<a href="https://twitter.com/TwipaSafaris" class="fa fa-twitter"></a>
 						<a href="#" class="fa fa-envelope-o fa-fw"></a>
+						<a href="https://www.linkedin.com/company/twipasafaris" class="fa fa-linkedin"></a>
 					</div>
 					<div class="copy">
 						<p>TWIPA SAFARIS (c) 2022 |
@@ -386,7 +390,7 @@ unique customs and traditions. <a href="#" style="color:blue;">...Read More</a>
 							<p>P.O.Box .109421 Kampala - Uganda
 								Tel: +256 +256 779630311/0755590041</p>
 							  
-							Email: <a href="info@twipasafaris.co">info@twipasafaris.co</a>
+							Email: <a href="info@twipasafaris.com">info@twipasafaris.co</a>
 							
 						 
 					</div>
@@ -396,7 +400,7 @@ unique customs and traditions. <a href="#" style="color:blue;">...Read More</a>
 		<script>
 			$(function (){
 				$('#bookingForm').bookingForm({
-					ownerEmail: '#'
+					ownerEmail: 'info@twipasafaris.com'
 				});
 			})
 			$(function() {
